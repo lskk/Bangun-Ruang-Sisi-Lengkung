@@ -1,0 +1,98 @@
+body {
+  background-image: url("../images/Base_Pasar_3.png");
+  background-size: 800px 600px;
+  background-repeat: no-repeat;
+}
+
+.toko {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  z-index: 2;
+}
+
+.choose {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  z-index: 4;
+}
+
+.soal {
+  position: absolute;
+  z-index: 5;
+  word-wrap: break-word;
+  color: white;
+}
+
+#toko1 {
+  top: 150px;
+  left: 380px;
+}
+
+#toko2 {
+  top: 300px;
+  left: 650px;
+}
+
+#player {
+  width: 70px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
+#gameBoard {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  background-color: black;
+  opacity: 0.75;
+  z-index: 3;
+}
+
+#message {
+  width: 600px;
+  height: auto;
+  position:absolute;
+  z-index: 5;
+  top: 400px;
+  left: 115px;
+  text-align: center;
+  color: white;
+}
+
+#soal {
+  top: 175px;
+  left: 325px;
+  width: 350px;
+  height: auto;
+}
+
+#jawaban1 {
+  top: 225px;
+  left: 350px;
+  width: auto;
+  height: auto;
+}
+
+#jawaban2 {
+  top: 275px;
+  left: 350px;
+  width: auto;
+  height: auto;
+}
+
+#jawaban3 {
+  top: 225px;
+  left: 550px;
+  width: auto;
+  height: auto;
+}
+
+#jawaban4 {
+  top: 275px;
+  left: 550px;
+  width: auto;
+  height: auto;
+}
